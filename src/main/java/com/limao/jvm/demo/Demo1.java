@@ -10,7 +10,7 @@ package com.limao.jvm.demo;
  * -XX:+UseConcMarkSweepGC
  * -XX:+PrintGCDetails
  * -XX:+PrintGCTimeStamps
- * -Xloggc:gc.log
+ * -Xloggc:gc_demo1.log
  *
  * @author <a href="mailto:luojianwei@qiancangkeji.cn">LuoJianwei</a>
  * @since 1.0.0
