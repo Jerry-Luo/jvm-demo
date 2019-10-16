@@ -1,4 +1,4 @@
-package com.limao.jvm.demo;
+package com.limao.jvm.demo.gc;
 /**
  * -XX:NewSize=10485760                             10M
  * -XX:MaxNewSize=10485760                          10M
@@ -16,23 +16,15 @@ package com.limao.jvm.demo;
  * @author <a href="mailto:luojianwei@qiancangkeji.cn">LuoJianwei</a>
  * @since 1.0.0
  */
-public class Demo2 {
+public class Demo3 {
     public static void main(String[] args) {
-
         byte[] array1 = new byte[2 * 1024 * 1024];
         array1 = new byte[2 * 1024 * 1024];
         array1 = new byte[2 * 1024 * 1024];
-        array1 = null;
 
         byte[] array2 = new byte[128 * 1024];
+        array2 = null;
 
         byte[] array3 = new byte[2 * 1024 * 1024];
-
-        array3 = new byte[2 * 1024 * 1024];
-        array3 = new byte[2 * 1024 * 1024];
-        array3 = new byte[128 * 1024];
-        array3 = null;
-
-        byte[] array4 = new byte[2 * 1024 * 1024];
     }
 }

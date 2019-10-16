@@ -1,4 +1,4 @@
-package com.limao.jvm.demo;
+package com.limao.jvm.demo.gc;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.limao.jvm.demo;
+package com.limao.jvm.demo.gc;
 /**
  * -XX:NewSize=5242880                                 5M
  * -XX:MaxNewSize=5242880                              5M
